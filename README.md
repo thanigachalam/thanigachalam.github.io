@@ -2,6 +2,13 @@
 
 Professional research portfolio for **Thanigachalam Tamizh Selvam**.
 
+## Files included
+
+- `index.html`
+- `styles.css`
+- `profile-photo.jpg`
+- `README.md`
+
 ## Public profile links
 
 - GitHub: https://github.com/thanigachalam
@@ -16,14 +23,13 @@ to `index.html`.
 
 ## Publishing
 
-Upload `index.html` and `styles.css` to the root of the `thanigachalam.github.io` repository.
+Upload all files to the root of the `thanigachalam.github.io` repository.
 
 GitHub Pages settings:
 - Source: Deploy from a branch
 - Branch: `main`
 - Folder: `/ (root)`
 
-## Public-content rule
+## Note
 
-Only publicly released or verifiable work is shown. Research projects that are not ready for public disclosure
-are intentionally excluded.
+This version includes the profile image shown in the homepage hero section.
