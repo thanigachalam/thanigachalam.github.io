@@ -351,3 +351,16 @@ footer {
     font-size: 1.08rem;
   }
 }
+
+
+.published-item {
+  margin-top: 28px;
+  padding: 26px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+}
+
+.published-item p {
+  margin-bottom: 0;
+}

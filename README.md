@@ -1,34 +1,29 @@
 # thanigachalam.github.io
 
-Research portfolio website for **Thanigachalam Tamizh Selvam**.
+Professional research portfolio for **Thanigachalam Tamizh Selvam**.
 
-## Publish on GitHub Pages
+## Public profile links
 
-Upload these files to the root of the `thanigachalam.github.io` repository:
+- GitHub: https://github.com/thanigachalam
+- ORCID: https://orcid.org/0009-0007-0860-6655
+- IEEE DataPort dataset: https://ieee-dataport.org/documents/synthetic-dental-clinical-notes-dataset-dental-nlp-benchmarking
 
-- `index.html`
-- `styles.css`
+## Google Scholar
 
-Then go to:
+Google Scholar is intentionally not linked yet. After the Scholar profile is completed and made public,
+copy the public profile URL (normally beginning with `https://scholar.google.com/citations?user=`) and add it
+to `index.html`.
 
-**Repository → Settings → Pages**
+## Publishing
 
-Use:
+Upload `index.html` and `styles.css` to the root of the `thanigachalam.github.io` repository.
 
-- **Source:** Deploy from a branch
-- **Branch:** `main`
-- **Folder:** `/ (root)`
+GitHub Pages settings:
+- Source: Deploy from a branch
+- Branch: `main`
+- Folder: `/ (root)`
 
-## Before publishing
+## Public-content rule
 
-In `index.html`, replace the `#` placeholders for:
-
-- Google Scholar
-- ORCID
-- LinkedIn
-
-You can also add a professional headshot later if desired.
-
-## Content rule
-
-Only list publications after they are publicly verifiable. Research in progress belongs in the Projects/Research sections, not Publications.
+Only publicly released or verifiable work is shown. Research projects that are not ready for public disclosure
+are intentionally excluded.
