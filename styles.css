@@ -102,37 +102,11 @@ a:hover {
     #fff;
 }
 
-.hero-layout {
+.hero-grid {
   display: grid;
   grid-template-columns: 1.45fr 0.75fr;
-  gap: 48px;
-  align-items: start;
-}
-
-.hero-main {
-  display: flex;
-  flex-direction: column;
-}
-
-.hero-identity {
-  display: flex;
+  gap: 58px;
   align-items: center;
-  gap: 26px;
-}
-
-.headshot {
-  width: 140px;
-  height: 140px;
-  min-width: 140px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center 18%;
-  border: 4px solid #fff;
-  box-shadow: var(--shadow);
-}
-
-.identity-text {
-  min-width: 0;
 }
 
 .eyebrow,
@@ -145,8 +119,8 @@ a:hover {
 }
 
 h1 {
-  margin: 8px 0 16px;
-  font-size: clamp(2.6rem, 6vw, 4.7rem);
+  margin: 8px 0 18px;
+  font-size: clamp(2.7rem, 6vw, 5.2rem);
   line-height: 1.02;
   letter-spacing: -0.045em;
 }
@@ -320,16 +294,8 @@ h3 {
   border-radius: 8px;
 }
 
-.published-item {
-  margin-top: 28px;
-  padding: 26px;
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: 16px;
-}
-
-.published-item p {
-  margin-bottom: 0;
+.contact {
+  text-align: left;
 }
 
 footer {
@@ -346,8 +312,8 @@ footer {
   flex-wrap: wrap;
 }
 
-@media (max-width: 980px) {
-  .hero-layout,
+@media (max-width: 900px) {
+  .hero-grid,
   .cards.three,
   .cards.two,
   .project {
@@ -358,31 +324,12 @@ footer {
     align-self: start;
   }
 
-  .hero-card {
-    max-width: 560px;
-  }
-}
-
-@media (max-width: 900px) {
   .nav {
     display: none;
   }
 
   .hero {
     padding-top: 72px;
-  }
-}
-
-@media (max-width: 700px) {
-  .hero-identity {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .headshot {
-    width: 112px;
-    height: 112px;
-    min-width: 112px;
   }
 }
 
@@ -403,4 +350,17 @@ footer {
   .lead {
     font-size: 1.08rem;
   }
+}
+
+
+.published-item {
+  margin-top: 28px;
+  padding: 26px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+}
+
+.published-item p {
+  margin-bottom: 0;
 }
