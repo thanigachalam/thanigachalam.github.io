@@ -2,20 +2,6 @@
 
 Professional research portfolio for **Thanigachalam Tamizh Selvam**.
 
-## Files included
-
-- `index.html`
-- `styles.css`
-- `profile-headshot.jpg`
-- `README.md`
-
-## What changed in this version
-
-- Replaced the large portrait with a smaller headshot-style thumbnail
-- Used a circular professional thumbnail in the hero section
-- Preserved the public-safe research content
-- Kept ORCID, GitHub, and IEEE DataPort links
-
 ## Public profile links
 
 - GitHub: https://github.com/thanigachalam
@@ -24,14 +10,20 @@ Professional research portfolio for **Thanigachalam Tamizh Selvam**.
 
 ## Google Scholar
 
-After your Google Scholar profile is public, add the profile URL to `index.html`
-where the Scholar placeholder comment is shown.
+Google Scholar is intentionally not linked yet. After the Scholar profile is completed and made public,
+copy the public profile URL (normally beginning with `https://scholar.google.com/citations?user=`) and add it
+to `index.html`.
 
 ## Publishing
 
-Upload all files to the root of the `thanigachalam.github.io` repository.
+Upload `index.html` and `styles.css` to the root of the `thanigachalam.github.io` repository.
 
 GitHub Pages settings:
 - Source: Deploy from a branch
 - Branch: `main`
 - Folder: `/ (root)`
+
+## Public-content rule
+
+Only publicly released or verifiable work is shown. Research projects that are not ready for public disclosure
+are intentionally excluded.
